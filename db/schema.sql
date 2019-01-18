@@ -1,0 +1,14 @@
+CREATE DATABASE burger_db;
+USE burger_db;
+
+
+CREATE TABLE Burgers (
+	id INT AUTO_INCREMENT NOT NULL,
+	name VARCHAR(255) NOT NULL,
+	devoured BOOLEAN DEFAULT '0',
+	date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (id)
+	) 
+
+
+SELECT * FROM burger_db.Burgers;
