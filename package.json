@@ -1,7 +1,7 @@
 {
-  "name": "eat-da-burger-",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "In this assignment, I  created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML. Remember",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,22 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rezwanayeem/Eat-Da-Burger-.git"
+    "url": "git+https://github.com/rezwanayeem/eat-da-burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rezwanayeem/Eat-Da-Burger-/issues"
+    "url": "https://github.com/rezwanayeem/eat-da-burger/issues"
   },
-  "homepage": "https://github.com/rezwanayeem/Eat-Da-Burger-#readme",
+  "homepage": "https://github.com/rezwanayeem/eat-da-burger#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^3.0.0",
-    "mysql": "^2.16.0",
-    "router": "^1.3.3",
-    "save": "^2.3.2"
-  },
-  "devDependencies": {}
+    "handlebars": "^4.0.12"
+  }
 }
